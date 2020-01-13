@@ -1,13 +1,14 @@
 //
-//  ExampleNavigationContentView.swift
+//  HomeContentView.swift
 //  MasteringSwiftUI
 //
-//  Created Domagoj Kulundzic on 27/05/2019.
+//  Created Domagoj Kulundzic on 13/01/2020.
+//  Copyright © 2020 Martian & Machine. All rights reserved.
 //
 
 import UIKit
 
-class ExampleNavigationContentView: UIView {
+class HomeContentView: UIView {
   override init(frame: CGRect) {
     super.init(frame: frame)
     setupViews()
@@ -19,8 +20,6 @@ class ExampleNavigationContentView: UIView {
 }
 
 // MARK: - Private Methods
-private extension ExampleNavigationContentView {
-  func setupViews() {
-    backgroundColor = .green
-  }
+private extension HomeContentView {
+  func setupViews() { }
 }
