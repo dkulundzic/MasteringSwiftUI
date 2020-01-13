@@ -20,7 +20,7 @@ public extension ImageAsset {
   }
   
   var imageMasteringSwiftUI: UIImage {
-    return image.withRenderingMode(.alwaysMasteringSwiftUI)
+    return image.withRenderingMode(.alwaysTemplate)
   }
   
   var imageOriginal: UIImage {

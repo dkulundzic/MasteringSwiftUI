@@ -17,7 +17,7 @@ class HomeRouter {
   weak var delegate: HomeRouterDelegate?
   
   static func createModule(delegate: HomeRouterDelegate?) -> HomeViewController {
-    let view = HomeViewController(nibName: nil, bundle: nil)
+    let view = HomeViewController()
     let interactor = HomeInteractor()
     let router = HomeRouter()
     router.delegate = delegate
